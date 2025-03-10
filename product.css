@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-color: black;
+}
+header{
+    background-color: rgb(70, 67, 67) ;
+    text-align: center;
+    padding: 25px ;
+}
+h1{
+    color: rgb(76, 16, 16);
+    text-align: center;
+}
+.navbar ul{
+    list-style: none;
+    background-color: rgba(18, 18, 18, 0.909);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(23, 22, 22);
+}
+.navbar li{
+    float: left;
+}
+p{
+    color: white;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color:rgb(52, 48, 61) ;
+    text-align: center;
+    padding: 25px ;}
+
+@media screen and (max-width: 600px) {
+        aside, section, article{
+            width: 100%;
+    }
+}
